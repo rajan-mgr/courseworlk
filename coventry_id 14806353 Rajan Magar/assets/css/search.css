@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.search-results {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0010pxrgba(0, 0, 0, 0.1);
+}
+
+.search-resultsh1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.book-card {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px0;
+}
+
+.book-cardimg {
+    max-width: 100px;
+    margin-right: 20px;
+}
+
+.book-cardh3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.book-cardp {
+    margin: 5px0;
+}
+
+.book-card.price {
+    font-weight: bold;
+}
+
+.no-results {
+    text-align: center;
+    padding: 20px;
+}

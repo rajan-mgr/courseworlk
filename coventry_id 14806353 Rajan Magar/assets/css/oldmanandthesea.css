@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.book-info {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.book-info img {
+    display: block;
+    margin: 0 auto 20px auto;
+    width: 200px;
+    height: auto;
+}
+
+.book-info h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.book-info p {
+    margin-bottom: 10px;
+}
+
+.book-info .back_btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.book-info .back_btn:hover {
+    background-color: #555;
+}

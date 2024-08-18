@@ -1,0 +1,134 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    height: 40px;
+}
+
+header .profile-icon {
+    position: relative;
+}
+
+header .profile-icon img {
+    height: 40px;
+    border-radius: 50%;
+}
+
+header .profile-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header .profile-icon:hover .profile-menu {
+    display: block;
+}
+
+header .profile-menu a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+header .profile-menu a:hover {
+    background-color: #f1f1f1;
+}
+
+.container {
+    display: flex;
+    margin: 20px;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+}
+
+.sidebar h2 {
+    margin-top: 0;
+}
+
+.sidebar a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.sidebar a:hover {
+    background-color: #ddd;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.main-content h1 {
+    margin-top: 0;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+.error-message, .success-message {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.error-message {
+    background-color: #fdd;
+    color: #d00;
+}
+
+.success-message {
+    background-color: #dfd;
+    color: #0d0;
+}
